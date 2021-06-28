@@ -1,0 +1,39 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+*/
+html,
+body {
+  margin: 0px;
+  background-color: burlywood;
+  padding: 0px;
+  /*font-family: 'Open Sans Condensed', sans-serif;
+    */
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color:teal;
+}
+.salida {
+    color: black;
+  border: 3px dashed crimson;
+  text-transform: uppercase;
+  width: 50%;
+  font-weight: bold;
+  margin: 1rem 25%;
+  height: 2rem;
+  text-align: center;
+  font-size: 1.7rem;
+  letter-spacing: .6rem;
+  text-shadow: 2px 0 white; 
+}
+.caja-color {
+  background-color: gray;
+  width: 60%;
+  height: 350px;
+  margin: 11px 20%;
+  border: 2px solid aqua;
+}
+.color-inp {
+  text-align: center;
+}

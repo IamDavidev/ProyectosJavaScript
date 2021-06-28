@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- archivos de  -->
+    <link rel="stylesheet" href="./css/normalize.css " />
+    <link rel="stylesheet" href="./css/style.css " />
+    <!-- icono -->
+    <link rel="shortcut icon" href="./assets/visual-studio.ico" type="image/x-icon">
+    <title>Editor</title>
+  </head>
+  <body>
+    <h2>
+      ingresa tu codigo para que veas como se veria en tu pagina Web
+    </h2>
+
+    <div class="container">
+      <textarea
+      onkeyup="codigo()"
+        name=""
+        id="editor"
+        class="editor"
+        cols="30"
+        rows="10"
+        placeholder="Escribe el codigo que desees aquí"
+      ></textarea>
+
+      <iframe id="vista" srcdoc=" <h3> New Main </h3> "> ></iframe>
+    </div>
+  </body>
+  <script src="./js/main.dev.js"></script>
+</html>

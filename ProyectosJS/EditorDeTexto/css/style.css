@@ -1,0 +1,38 @@
+body
+{
+    background-color: #4c4c4c;
+}
+h2
+{
+    color:blueviolet;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow:0px 0.3px blue;
+}
+
+.container
+{
+    width: 100%;
+    height: 90vh;
+    display:inline-flex;
+}
+.editor
+{
+    color:blueviolet;
+    background-color: #191919;
+    margin: 0.5rem;
+    padding:0.3rem;
+    width: 100%;
+    border:2px dashed blue ;
+    border-radius:16px ;
+}
+iframe
+{
+    color:blueviolet;
+    background-color: #bfbebe;
+    width: 100%;
+    margin: 0.5rem;
+    padding: 0.4rem;
+    border:2px dashed blue ;
+    border-radius: 16px;
+}

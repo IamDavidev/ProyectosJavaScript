@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>color-picker</title>
+    <!-- style -->
+    <link rel="stylesheet" href="./css/noramlize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Icono -->
+    <link
+      rel="shortcut icon"
+      href="./assets/postgraphile.ico"
+      type="image/x-icon"
+    />
+    <!-- archivos que contienen el demas codigo (solo los que no necesiten ejecutarse )  -->
+    <script src="./js/color.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>paleta de colores</h1>
+    </header>
+    <div class="salida" id="salida">
+      <p id="colorCap">selecione un color </p>
+    </div>
+    <div class="caja-color"></div>
+    <div class="color-inp">
+      <input type="color" id="color" value="#808080" />
+    </div>
+  </body>
+  <!-- scrips que contengan el codigo a ejecutar (llamadas al DOM etc.) -->
+  <script src="./js/variablesDom.js"></script>
+  <script src="./js/main.js"></script>
+</html>
